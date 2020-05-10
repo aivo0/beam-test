@@ -37,7 +37,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - servant
+    - beam-test
 
 tests:
   servant-test:
@@ -48,4 +48,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - servant
+    - beam-test

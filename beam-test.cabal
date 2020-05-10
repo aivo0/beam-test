@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 3e08543c38cc8525c46c615faf46350242e9741cb2c4837dbbb1b3b02446ff81
+-- hash: b32a13ec65e1e048a3b6e1c053bcbc90fced0ece44eb09e46ca2f5fb3c235e6d
 
 name:           beam-test
 version:        0.1.0.0
@@ -51,7 +51,7 @@ executable servant-exe
     , beam-core
     , beam-migrate
     , beam-sqlite
-    , servant
+    , beam-test
   default-language: Haskell2010
 
 test-suite servant-test
@@ -67,5 +67,5 @@ test-suite servant-test
     , beam-core
     , beam-migrate
     , beam-sqlite
-    , servant
+    , beam-test
   default-language: Haskell2010
